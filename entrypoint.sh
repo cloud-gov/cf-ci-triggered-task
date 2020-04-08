@@ -29,26 +29,6 @@ if [[ -z ${TASK_NAME} ]]; then
   exit 1
 fi
 
-if [[ -z ${CF_USERNAME} ]]; then
-  echo "You must specify a valid username"
-  exit 1
-fi
-
-if [[ -z ${CF_PASSWORD} ]]; then
-  echo "You must specify a valid password"
-  exit 1
-fi
-
-if [[ -z ${CF_ORG} ]]; then
-  echo "You must specify a valid org name"
-  exit 1
-fi
-
-if [[ -z ${CF_SPACE} ]]; then
-  echo "You must specify a valid org space name"
-  exit 1
-fi
-
 # Authenticate with cloud.gov and target space
 cf api "$CF_API"
 cf auth "$CF_USERNAME" "$CF_PASSWORD"
