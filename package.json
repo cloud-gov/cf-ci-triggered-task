@@ -1,6 +1,6 @@
 {
-  "name": "task-tests",
-  "version": "1.0.0",
+  "name": "ci-triggered-task",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mheadd/task-tests.git"
+    "url": "git+https://github.com/cloud-gov/cf-ci-triggered-task.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mheadd/task-tests/issues"
+    "url": "https://github.com/cloud-gov/cf-ci-triggered-task/issues"
   },
-  "homepage": "https://github.com/mheadd/task-tests#readme"
+  "homepage": "https://github.com/cloud-gov/cf-ci-triggered-task#readme"
 }
