@@ -5,14 +5,12 @@ APP_NAME=$1
 TASK=$2
 TASK_NAME=$3
 
-
 # Constants for auth and targeting space
 CF_API=https://api.fr.cloud.gov
 CF_USERNAME=$4
 CF_PASSWORD=$5
 CF_ORG=$6
 CF_SPACE=$7
-
 
 if [[ -z ${APP_NAME} ]]; then
   echo "You must specify an app name"
